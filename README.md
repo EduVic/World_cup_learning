@@ -1,6 +1,13 @@
 world_cup_learning
 ==================
 
+Update
+------------------
+I have modified the original world_cup_learning to exclude the 2014 matches from the training set and to run the 2014 predictions and see how well the predictions really were.
+
+Original README
+------------------
+
 Just because I wanted to win a bet, some machine learning about the fifa world cup :)
 
 Still working on it, should be ready before the 2014 cup starts playing (I will try to "predict" matches results).
@@ -24,4 +31,4 @@ Then, inside a virtualenv with access to your system site-packages:
     pip install -r requirements.txt
     
 (Or, if you don't want to use virtualenv, the same but with sudo)
-   
+  
