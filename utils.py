@@ -68,6 +68,8 @@ def get_matches(with_team_stats=False, duplicate_with_reversed=False,
         matches = matches.join(stats, on='team1')\
                          .join(stats, on='team2', rsuffix='_2')
 
+    matches = matches[matches.year != 2014]
+
     return matches
 
 
